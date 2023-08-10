@@ -11,6 +11,10 @@
     font-size: 5.625rem;
 }
 
+app__wrapper-info p {
+    margin-block: 2rem;
+}
+
 .app__header-img img {
     width: 80%;
 }

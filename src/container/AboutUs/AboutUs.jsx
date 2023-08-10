@@ -9,8 +9,8 @@ const AboutUs = () => {
             className="section__padding app__bg app__aboutus flex__center"
             id="about"
         >
-            {/* overlay image */}
-            <div className="app__aboutus-overlay flex__center">
+            {/* underlay image */}
+            <div className="app__aboutus-underlay flex__center">
                 <img src={images.G} alt="g letter" />
             </div>
 

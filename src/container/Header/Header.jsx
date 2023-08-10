@@ -5,7 +5,7 @@ import { images } from "../../constants";
 import { SubHeading } from "../../components";
 
 const Header = () => (
-    <div className="section__padding app__wrapper app__header" id="home">
+    <section className="section__padding app__wrapper app__header" id="home">
         <div className="app__wrapper_info">
             <SubHeading title="Chase the new flavour" />
             <h1 className="app__header-h1">The Key to Fine Dining</h1>
@@ -21,7 +21,7 @@ const Header = () => (
         <div className="app__wrapper_img">
             <img src={images.welcome} alt="delicious food" />
         </div>
-    </div>
+    </section>
 );
 
 export default Header;

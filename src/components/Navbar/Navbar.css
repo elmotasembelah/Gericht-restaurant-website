@@ -23,12 +23,11 @@
 .app__navbar-links {
     flex: 1;
     display: flex;
-    gap: 2rem;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
 
     list-style: none;
-    opacity: 1;
 }
 
 .app__navbar-links li {
@@ -77,18 +76,17 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100svh;
-    height: 100vh;
+    height: 70vh;
+    height: 70svh;
     flex-direction: column;
     gap: 3rem;
     background-color: var(--color-black);
-    transition: 0.5 ease-in;
+    transition: 0.5s ease-in;
 
     z-index: 5;
 }
 
 overlay-open {
-    background-color: red;
     padding: 2rem;
     cursor: pointer;
 }
@@ -120,6 +118,7 @@ overlay-open {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 .app__navbar-smallscreen_book a {

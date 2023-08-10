@@ -1,11 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import './Intro.css';
+import "./Intro.css";
+import { meal } from "../../constants";
 
-const Intro = () => (
-  <div>
-    Intro
-  </div>
-);
+const Intro = () => {
+    return <video></video>;
+};
 
 export default Intro;
