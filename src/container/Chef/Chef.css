@@ -2,13 +2,11 @@
     width: 100%;
     justify-content: space-between;
     gap: 2rem;
-    /* flex-direction: column; */
 }
 /* image */
 .app__chef_img {
     flex: 1;
     display: flex;
-    margin-right: 2rem;
 }
 
 .app__chef_img img {

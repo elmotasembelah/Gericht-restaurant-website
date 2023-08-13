@@ -10,7 +10,7 @@ const Chef = () => {
             {/* content */}
             <div className="app__chef_content flex__center">
                 {/* chef's img */}
-                <div className="app__chef_img">
+                <div className="app__chef_img ">
                     <img src={images.chef} alt="smiling chef" />
                 </div>
                 {/* info content */}
