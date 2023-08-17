@@ -86,3 +86,9 @@
         width: 90%;
     }
 }
+@media screen and (max-width: 400px) {
+    .app__aboutus-underlay img {
+        width: 80%;
+        height: 260px;
+    }
+}

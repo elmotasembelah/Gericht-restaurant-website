@@ -9,7 +9,12 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => {
         <div className="app__laurels-awards_awardcard">
             <img src={imgUrl} alt="award" />
             <div className="app__laurels-awardcard_content">
-                <p className="p__cormorant">{title}</p>
+                <p
+                    className="p__cormorant"
+                    style={{ color: "var(--color-golden)" }}
+                >
+                    {title}
+                </p>
                 <p className="p__opensans">{subtitle}</p>
             </div>
         </div>
@@ -18,10 +23,13 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => {
 
 const Laurels = () => {
     return (
-        <section className="section__padding app__bg app__wrapper app__laurels flex__center">
+        <section
+            className="section__padding app__bg app__wrapper app__laurels flex__center"
+            id="awards"
+        >
             <div className="app__wrapper_info">
                 <SubHeading title={"Awards & Recognition"}></SubHeading>
-                <h2 className="headtext__cormorant">Our Laurels</h2>
+                <h2 className="headtext__cormorant">Our Laurels</h2>w{" "}
                 <div className="app__laurels-awards">
                     {data.awards.map((award) => (
                         <AwardCard key={award.title} award={award} />
@@ -29,7 +37,6 @@ const Laurels = () => {
                 </div>
             </div>
             <div className="app__wrapper_img">
-                =
                 <img src={images.laurels} alt="tasty food" />
             </div>
         </section>

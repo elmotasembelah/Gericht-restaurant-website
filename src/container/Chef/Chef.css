@@ -50,7 +50,7 @@
 }
 
 @media screen and (max-width: 2000px) {
-    .app_chef_info_sign img {
+    .app__chef_info_sign img {
         width: 370px;
     }
 }
@@ -70,7 +70,7 @@
 }
 
 @media screen and (max-width: 450px) {
-    .app_chef_info_sign img {
+    .app__chef_info_sign img {
         width: 80%;
     }
 }
